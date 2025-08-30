@@ -251,7 +251,7 @@ local function v_u_41(p36, p37)
                 end
             end
         else
-            if p36.UserInputType == Enum.UserInputType.MouseButton1 then
+            if true then
                 v_u_23.disable(1)
                 v_u_24.disable(1)
                 return
@@ -349,4 +349,5 @@ function v1.setup()
     v_u_4.ShipChanged.Event:Connect(v_u_55)
     task.spawn(v_u_56)
 end
+
 return v1
